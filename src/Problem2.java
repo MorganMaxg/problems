@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Problem2 {
 
   public static void main(String[] args) {
@@ -9,5 +11,13 @@ public class Problem2 {
      * 输入:1 9 输出:1 2 3 4 5 6 7 8 9
      * 输入:5 8 输出:5 6 7 8
      */
+    Scanner in = new Scanner(System.in);
+    int a;int b;int i;
+    a = in.nextInt();
+    b = in.nextInt();
+    for(i=a;i<b+1;i++)
+    {
+      System.out.print(i+" ");
+    }
   }
 }
