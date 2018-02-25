@@ -10,20 +10,16 @@ public class Problem4 {
      * 输入:4 输出:4是偶数
      * 输入:15 输出:15是奇数
      */
-    Scanner in = new Scanner(System.in);
-    int a ;
-    a= in.nextInt();
-    if(a%2==1)
-    {
-
-      System.out.print(a+"是奇数");
-
-    }
-    if(a%2==0)
-    {
-
-      System.out.print(a+"是偶数");
-
+    while (true) {
+      Scanner in = new Scanner(System.in);
+      int a;
+      a = in.nextInt();
+      if (a % 2 == 1) {
+        System.out.println(a + "是奇数");
+      }
+      if (a % 2 == 0) {
+        System.out.println(a + "是偶数");
+      }
     }
   }
 }
