@@ -22,7 +22,7 @@ public class  Problem5 {
 
     Scanner in = new Scanner(System.in);
     int T = in.nextInt();
-    String[] str = {"AAA", "BBB", "CCC"};
+    String str[] =new String[T];
     for (int i = 0; i < T; i++)
           {
 
@@ -44,10 +44,13 @@ public class  Problem5 {
                     str[i] = "Equal";
               }
 
+
           }
+
     for (int i = 0; i < T; i++)
           {
               System.out.println(str[i]);
+
           }
   }
 }
